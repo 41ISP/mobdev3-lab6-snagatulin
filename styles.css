@@ -63,7 +63,7 @@ body {
 /* Отдельное сообщение */
 .message {
     background: #cce5ff;
-padding: 5px;
+    padding: 5px;
     border-radius: 5px;
     grid-column-end: span;
     margin-bottom: 10px;
@@ -75,10 +75,16 @@ padding: 5px;
     margin-left: auto;
 }
 
+.message--foreign {
+    margin-left: auto;
+}
+
 /* Поле ввода */
 .message-input {
     width: 100%;
     padding: 10px;
+    display: grid;
+    grid-column: 1/4;
 }
 
 /* Футер */

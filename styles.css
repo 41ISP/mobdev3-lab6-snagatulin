@@ -39,14 +39,16 @@ body {
 .chat-list {
     background: #f4f4f4;
     padding: 10px;
-    display: flex;
-    flex-direction: column;
+    border-right: 1px;
+    border-radius: 5px;
 }
 
 /* Главное окно чата */
 .chat-window {
     background: #fff;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Сообщения */
@@ -58,15 +60,14 @@ body {
     overflow-y: auto;
     margin-bottom: 10px;
 }
-
 /* Отдельное сообщение */
 .message {
     background: #cce5ff;
-    padding: 5px;
+padding: 5px;
     border-radius: 5px;
     grid-column-end: span;
     margin-bottom: 10px;
-    max-width: max-content;
+    max-width:max-content;
     word-wrap: break-word;
 }
 
@@ -90,5 +91,5 @@ body {
 }
 
 ul {
-    list-style: none;
+    list-style: none;    
 }

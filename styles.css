@@ -13,7 +13,7 @@ body {
     align-items: center;
 }
 
-/* GRID-контейнер для всей страницы */
+
 .container {
     width: 800px;
     height: 600px;
@@ -25,7 +25,7 @@ body {
     grid-template-areas:none;
 }
 
-/* Хедер (флекс) */
+
 .header {
     display: flex;
     justify-content:space-between;
@@ -35,7 +35,7 @@ body {
     grid-column: 1/4;
 }
 
-/* Боковое меню чатов */
+
 .chat-list {
     background: #f4f4f4;
     padding: 10px;
@@ -43,7 +43,7 @@ body {
     border-radius: 5px;
 }
 
-/* Главное окно чата */
+
 .chat-window {
     background: #fff;
     padding: 10px;
@@ -51,7 +51,7 @@ body {
     flex-direction: column;
 }
 
-/* Сообщения */
+
 .messages {
     overflow-y: auto;
     background: #eaeaea;
@@ -60,7 +60,7 @@ body {
     overflow-y: auto;
     margin-bottom: 10px;
 }
-/* Отдельное сообщение */
+
 .message {
     background: #cce5ff;
     padding: 5px;
@@ -79,7 +79,7 @@ body {
     margin-left: auto;
 }
 
-/* Поле ввода */
+
 .message-input {
     width: 100%;
     padding: 10px;
@@ -87,7 +87,7 @@ body {
     grid-column: 1/4;
 }
 
-/* Футер */
+
 .footer {
     background: #ddd;
     padding: 10px;
